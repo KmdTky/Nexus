@@ -267,4 +267,15 @@
 		(uuid "6465deb1-22e0-4339-b6b0-0364e2080a32")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Parts/OkL_T_6/OKL-T_6-W12N-C.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

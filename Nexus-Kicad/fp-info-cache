@@ -1,4 +1,25 @@
-26715391124896070
+26733079490001239
+74HC244
+SOIC20_TOS
+
+74HC244D 
+0
+20
+20
+74HC244
+SOIC20_TOS-L
+
+74HC244D 
+0
+20
+20
+74HC244
+SOIC20_TOS-M
+
+74HC244D 
+0
+20
+20
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53711,6 +53732,13 @@ USB C Type-C Receptacle SMD USB Power-only Charging-only 6P 6C USB4135-GF-A
 10
 7
 Connector_USB
+USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal_1
+USB Type C Receptacle, GCT, power-only, 6P, top mounted, horizontal, 3A: https://gct.co/files/drawings/usb4135.pdf
+USB C Type-C Receptacle SMD USB Power-only Charging-only 6P 6C USB4135-GF-A
+0
+10
+7
+Connector_USB
 USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A
 16-pin USB-C receptacle, USB2.0 and PD, 5A VBUS rating, https://datasheet.lcsc.com/lcsc/2211161000_HCTL-HC-TYPE-C-16P-01A_C2894897.pdf
 usb usb-c 2.0 pd
@@ -62670,6 +62698,13 @@ heatsink
 0
 0
 0
+Heatsynk
+heatsink23.5_17_25mm
+
+
+0
+2
+2
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -94940,6 +94975,13 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RaspberryPi4B
+MODULE_RASPBERRY_PI_4B_4GB
+
+
+0
+48
+48
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -99364,6 +99406,20 @@ Logo WEEE
 0
 0
 0
+TC74HC4052AP
+TC74HC4052AP
+
+TC74HC4052AP 
+0
+16
+16
+Tc7wh241fk
+TO254P1054X470X1955-3
+
+
+0
+3
+3
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
@@ -104726,6 +104782,13 @@ test point THT pad
 0
 1
 1
+Togle
+TogleSW3pin
+
+
+0
+3
+3
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
@@ -106350,3 +106413,10 @@ Varistor VF
 0
 2
 2
+tc7s14
+SOT-25   SMV_TOS
+
+TC7S14F_LF 
+0
+5
+5

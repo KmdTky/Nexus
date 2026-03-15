@@ -1,4 +1,7 @@
 (fp_lib_table
   (version 7)
   (lib (name "OKLT6W12N")(type "KiCad")(uri "${KIPRJMOD}/Parts/OkL_T_6/OKLT6W12N.pretty")(options "")(descr ""))
+  (lib (name "RaspberryPi4B")(type "KiCad")(uri "${KIPRJMOD}/Parts/RASPBERRY_PI_4B_4GB/RaspberryPi4B.pretty")(options "")(descr ""))
+  (lib (name "tc7s14")(type "KiCad")(uri "${KIPRJMOD}/Parts/TC7S14F/tc7s14.pretty")(options "")(descr ""))
+  (lib (name "74HC244")(type "KiCad")(uri "${KIPRJMOD}/Parts/74HC244/74HC244.pretty")(options "")(descr ""))
 )
