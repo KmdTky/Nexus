@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "OKLT6W12N")(type "KiCad")(uri "${KIPRJMOD}/Parts/OkL_T_6/OKLT6W12N.pretty")(options "")(descr ""))
+)
