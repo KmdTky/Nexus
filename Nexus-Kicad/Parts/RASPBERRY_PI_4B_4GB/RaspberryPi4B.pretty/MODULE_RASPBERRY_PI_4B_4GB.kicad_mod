@@ -755,7 +755,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/Parts/RASPBERRY_PI_4B_4GB/RASPBERRY_PI_4B_4GB.step"
 		(offset
-			(xyz 0 0 -1.5)
+			(xyz 0 0 -14.5)
 		)
 		(scale
 			(xyz 1 1 1)

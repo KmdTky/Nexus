@@ -1,0 +1,103 @@
+
+(rules PCB Nexus.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute off)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 4.5)
+    )
+    (layer_rule In1.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.3)
+    )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.7)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 4.1)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clearance 200.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-3]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GNDA +5V "Sig_Buzzer" Vcc "unconnected-(RV1-Pad3)" "Net-(MD1-TRIM)" +12V 3.3V
+    SDA SCL "FLED_Sig" "Servo1_5V" "Servo2_5V" "Servo3_5V" "Servo4_5V" "unconnected-(MD1-3_NC-Pad11)"
+    "unconnected-(MD1-2_NC-Pad9)" "unconnected-(MD1-1_NC-Pad8)" "unconnected-(MD1-POWER_GOOD_OUT-Pad10)" "unconnected-(MD1-4_NC-Pad12)" "Servo1_3.3V" "Servo2_3.3V" "Servo3_3.3V" "Servo4_3.3V"
+    "Fan_PWM" TX1 RX4 RX1 Cs Enable Dout Clock
+    TX2 TX3 TX4 RX3 DIn RX2 "unconnected-(U2-NC-Pad1)" "Enable_R"
+    "Net-(Q5-G)" "unconnected-(U3-GPIO18{slash}GPIO_GEN1-Pad12)" "unconnected-(U3-GPIO26-Pad37)" "unconnected-(U3-GPIO16-Pad36)" "unconnected-(U3-GPIO20-Pad38)" "unconnected-(U3-GPIO22{slash}GPIO_GEN3-Pad15)" "unconnected-(U3-GPIO11{slash}SPI_SCLK-Pad23)" "unconnected-(U3-GPIO27{slash}GPIO_GEN2-Pad13)"
+    "unconnected-(U3-GPIO6-Pad31)" "unconnected-(U3-GPIO25{slash}GPIO_GEN6-Pad22)" "unconnected-(U3-GPIO23{slash}GPIO_GEN4-Pad16)" "Net-(D6-A)" batte "Net-(D3-K)" "Net-(D4-A)" "Net-(D7-A)"
+    "Net-(D1-A)" "Net-(D2-A)" "Net-(D8-K)" "Net-(R13-Pad1)" "Net-(J15-Pin_2)" "Net-(J15-Pin_3)" "Net-(J15-Pin_7)" "Net-(J15-Pin_4)"
+    "Net-(J15-Pin_6)" "Net-(J15-Pin_1)" "Net-(J15-Pin_8)" "Net-(J15-Pin_5)" "V-Servo"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)
