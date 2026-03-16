@@ -1,25 +1,4 @@
-26733079512342000
-74HC244
-SOIC20_TOS
-
-74HC244D 
-0
-20
-20
-74HC244
-SOIC20_TOS-L
-
-74HC244D 
-0
-20
-20
-74HC244
-SOIC20_TOS-M
-
-74HC244D 
-0
-20
-20
+26722438133927961
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73548,13 +73527,6 @@ net tie
 0
 4
 4
-OKLT6W12N
-MURATA_OKL-T-6-W12N-C_0
-Non-Isolated PoL Module DC DC Converter 1 Output 0.591 ~ 5.5V - - 6A 4.5V - 14V Input
-
-0
-12
-12
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -94975,13 +94947,6 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
-RaspberryPi4B
-MODULE_RASPBERRY_PI_4B_4GB
-
-
-0
-48
-48
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -106413,10 +106378,3 @@ Varistor VF
 0
 2
 2
-tc7s14
-SOT-25   SMV_TOS
-
-TC7S14F_LF 
-0
-5
-5
