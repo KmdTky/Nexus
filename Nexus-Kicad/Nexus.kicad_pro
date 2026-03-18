@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.1,
-          "height": 1.905,
-          "width": 4.191
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -532,7 +532,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "Nexus.dsn",
-      "step": "",
+      "step": "Nexus.step",
       "svg": "",
       "vrml": ""
     },
@@ -655,6 +655,10 @@
     [
       "9a8588c5-55c1-4b26-a033-cd99c76f9b28",
       "Root"
+    ],
+    [
+      "5fc92b81-2134-4fc1-89de-c1b15ffb471f",
+      "Servo_Conns"
     ]
   ],
   "text_variables": {}
